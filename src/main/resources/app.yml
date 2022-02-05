@@ -1,0 +1,18 @@
+spring:
+  cloud:
+    gcp:
+      logging:
+        enabled: true
+      config:
+        enabled: true
+      core:
+        enabled: true
+      datastore:
+        emulator:
+          enabled: false
+          port: 8081
+        namespace: student-service
+        enabled: true
+        project-id: student-service-339706
+        host:
+          http://localhost:8081
